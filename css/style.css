@@ -19,7 +19,7 @@ html {
   }
   
   .headertab{
-    width: 25%;
+    width: 20%;
     height: 20px;
     background: rgb(156, 154, 154);
     outline: dotted 1px orange;
@@ -91,7 +91,7 @@ html {
     margin-top: 6px
   }
   
-  .embossed{
+  .embossed {
     color: #0d1669;
     font-size: 25px;
     font-family: Futura;
@@ -114,4 +114,8 @@ html {
     background-color: rgb(7, 59, 44);
     color: rgb(192, 187, 187);
     text-align: center;
+  }
+
+  .bold {
+    font-weight: bold;
   }
