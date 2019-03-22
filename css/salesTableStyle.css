@@ -1,0 +1,36 @@
+#cookie_sales {
+  margin-block-start: 50px;
+	font-family: 'Sofia';
+	font-size: 14px;
+  width: 400px;
+  }
+
+#cookie_sales th {
+	padding: 15px;
+	border: solid 1px black;
+	text-align: center;
+	background-color: rgba(6, 59, 28, 0.76);
+	color: white;
+	font-weight: bolder;
+  }
+  
+  #cookie_sales tfoot {   
+	  padding: 10px;
+	  border: dashed #f2f2f2;
+	  text-align: center;
+	  background-color: greenyellow;
+	  color: white;
+	  font-weight: bolder;
+  }
+  
+  #cookie_sales td {
+	  padding: 5px;
+	  border: solid 1px black;
+		overflow: auto;
+		color: rgb(163, 72, 83);
+	}
+	
+	#cookie_sales tr:nth-child(even) {
+		background-color: #f2f2f2;
+	}
+	
