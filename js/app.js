@@ -71,7 +71,7 @@ function render(tableRow) {
 buildTableHeader();
 
 var firstAndPikeStore = new SalmonCookieStoreSales('1st and Pike', 23, 65, 6.3);
-var firstAndPikeStoreResult = firstAndPikeStore.cookieCountDetails()
+var firstAndPikeStoreResult = firstAndPikeStore.cookieCountDetails();
 buildTableRow(firstAndPikeStoreResult);
 
 var seatacAirportStore = new SalmonCookieStoreSales('SeaTac Airport', 3, 24, 1.2);
